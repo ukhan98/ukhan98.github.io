@@ -389,7 +389,12 @@ header {
 
 
 }
-/* Change images to same size and reupload to website to make grid neat */
+/* Change images to same size  to make grid neat */
+.portfolio__item img{
+    width: 80%;
+    height: 80%;
+}
+
 .portfolio__item {
     background: var(--clr-dark);
     overflow: hidden;
