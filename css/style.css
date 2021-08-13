@@ -389,10 +389,14 @@ header {
 
 
 }
-/* Change images to same size  to make grid neat */
+/* Change images to same size  to make grid more neat */
 .portfolio__item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
     height: 80%;
+    margin-top: 10px;
 }
 
 .portfolio__item {
